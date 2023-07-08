@@ -1,0 +1,35 @@
+.ant-upload-picture-card-wrapper {
+    height: 100% !important; 
+    width: 100% !important;
+}
+.ant-upload.ant-upload-select {
+    height: 100% !important;
+    width: 100% !important;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay input[type="file"],
+  .overlay button {
+    margin: 10px;
+  }
+  .file-upload-label input[type="file"] {
+    display: none;
+  }
+  button {
+    margin: 10px;
+  }
